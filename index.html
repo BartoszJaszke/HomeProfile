@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bartosz Jaszke</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <script defer src="js/script.js">
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body js-body">
+    <header class="header">
+        <h1 class="header__title">Bartosz Jaszke</h1>
+        <img src="https://i.postimg.cc/HsL91C8Q/two.jpg" width="300px" alt="Bartosz Jaszke">
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__element">
+                <a href="#oMnie" class="navigation__link">Trochę o mnie</a>
+            </li>
+            <li class="navigation__element">
+                <a href="#praca" class="navigation__link">Zawodowo</a>
+            </li>
+            <li class="navigation__element">
+                <a href="#czasWolny" class="navigation__link">W wolnym czasie</a>
+            </li>
+
+        </ul>
+    </nav>
+    <p>
+        <button class="button js-button">
+            <span class="js-button__name">Ciemny</span> motyw
+        </button>
+    </p>
+    <main>
+        <section id="oMnie" class="section">
+            <h2 class="section__header">
+                Trochę o mnie
+            </h2>
+            <p class="section__text">
+                Witam Cię na mojej stronie. Jestem Bartosz mam 24 lata, pochodzę z Szczecina. Interesuję się piłką nożną
+                oraz motoryzacją. Kiedyś jeszcze
+                dużo grałem w gry komputerowe ale z racji rozpoczęcia pracy po skończeniu szkoły zmieniły się
+                priorytety. Wraz z małżonką uwielbiamy podrózować i odkrywać nowe miejsca.
+            </p>
+        </section>
+        <section id="praca" class="section">
+            <h2 class="section__header">
+                Zawodowo
+            </h2>
+            <p class="section__text"> Skończyłem technikum ekonomiczne na profilu <em>Technik Logistyk</em> jednak jak
+                to w naszym kraju bywa, ciężko było znaleść pracę w zawodzie po szkole. Ponad cztery lata temu
+                zatrudniłem się do pomocy w firmie specjalizującej się Systemami grzewczymi. Głównie pomagałem przy
+                montażu klimatyzacji, z czasem przyjąłem się na stałe. Dziś jestem <em> Specjalistą systemów
+                    grzewczych</em> specjalizującym się w dziedzinie klimatyzacji, wentylacji oraz pomp ciepła.
+                <strong></strong>
+
+            </p>
+        </section>
+        <section id="czasWolny" class="section">
+            <h2 class="section__header">
+                W wolnym czasie
+            </h2>
+            <p class="section__text"> Wolny czas spędzam wraz z Żoną oraz cudownym Sznaucerkiem o imieniu Sunia.
+                Uwielbiamy spacerować w pobliskim parku, chociaż na wycieczki w dalej oddalone miejsca też się
+                wybieramy. Z racji chęci zmiany zawodu swój wolny czas poświęcam również na świetne szkolenie jakim
+                jest <strong>YouCode</strong>
+
+            </p>
+        </section>
+        <section>
+            <p class="section__text">
+            <table class="table">
+                <caption class="table__caption"><strong> Podróże </strong> </caption>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header">Kraj</th>
+                    <th class="table__cell table__cell--header">Miasto</th>
+                    <th class="table__cell table__cell--header">Środek transportu</th>
+                    <th class="table__cell table__cell--header">Długość</th>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header">Turcja</th>
+                    <td class="table__cell ">Alanya</td>
+                    <td class="table__cell ">Samolot</td>
+                    <td class="table__cell "> 3186 km</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header">Włochy</th>
+                    <td class="table__cell ">Rzym</td>
+                    <td class="table__cell ">Samolot</td>
+                    <td class="table__cell ">1677 km</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header">Meksyk</th>
+                    <td class="table__cell ">Playa del Carmen</td>
+                    <td class="table__cell ">Samolot</td>
+                    <td class="table__cell "> 8910 km</td>
+                </tr>
+            </table>
+            </p>
+        </section>
+    </main>
+    <footer>
+        ©Copyright Bartosz Jaszke.
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+.section__header {
+    font-size: 25px;
+    font-weight: normal;
+    background-color: rgba(64, 55, 248, 0.686);
+    color: rgb(5, 5, 5);
+}
+
+.section__text {
+    font-size: 20px;
+    line-height: 1.6;
+}
